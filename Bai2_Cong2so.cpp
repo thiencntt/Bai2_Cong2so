@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     cout << "CHUONG TRINH TINH TONG HAI SO\n";
-    int so1, so2;
+    int so1, so2;  // Khai bao bien so1 va so2 kieu so nguyen
     int tong;
-    so1 = 3;
-    so2 = 9;
+    cout << "Nhap so 1: "; cin >> so1;
+    cout << "Nhap so 2: "; cin >> so2;
     tong = so1 + so2;
     cout << "Tong hai so: " << so1 << " + " << so2 << " = " << tong <<endl;
     return 0;
